@@ -19,5 +19,7 @@ document.addEventListener('contextmenu', function(event) {
 });
 
 window.addEventListener('load', () => {
-  document.getElementById('preloader').style.animation = "slideUp 1s forwards";
+  setTimeout(() => {
+    document.getElementById('preloader').style.animation = "slideUp 1s forwards";
+  }, 2500);
 });
